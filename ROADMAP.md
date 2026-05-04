@@ -14,7 +14,7 @@ The SDK is developed in **6 phases across 6 months**, with dedicated testing wee
     M1            M2            M3            M4            M5            M6
 Architecture   Crypto +     HTS Tokens   Mirror Node      Docs +        Launch +
 + Protobuf     Accounts       + NFTs       + HCS        pub.dev v1.0     HIP
- (3 weeks)     (5 weeks)     (5 weeks)    (5 weeks)     (3 weeks)      (2 weeks)
+ (3 weeks)     (5 weeks)     (5 weeks)    (5 weeks)     (3 weeks)      (3 weeks)
 ```
  
 **Total duration:** ~6 months (24 weeks)
@@ -221,7 +221,7 @@ Comprehensive SDK-wide testing, complete dartdoc API documentation, open-source 
  
  
 ### Phase 6 - Launch, Community & HIP
-**Duration:** 2 weeks  
+**Duration:** 3 weeks  
 **Status:** ⏳ Pending
  
 ### Goals
@@ -270,7 +270,7 @@ Official public launch, community outreach, HIP submission to Hiero, adoption by
 | 3 | HTS Tokens + NFTs | 5 | ⏳ Pending |
 | 4 | Mirror Node + HCS | 5 | ⏳ Pending |
 | 5 | Docs + pub.dev v1.0 | 3 | ⏳ Pending |
-| 6 | Launch + HIP | 2 | ⏳ Pending |
+| 6 | Launch + HIP | 3 | ⏳ Pending |
 | **Total** | | **24** | |
  
  
