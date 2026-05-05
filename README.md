@@ -42,7 +42,7 @@ This project closes that gap.
  
 ## Features
  
-### Phase 1 (Planned)
+### Stage 1 (Planned)
  
 - **Account Management** - Create, update, delete accounts · Transfer HBAR
 - **Cryptography** - ED25519 + ECDSA keys · BIP-39 mnemonics in `🇺🇸` English and `🇪🇸` Spanish · HD key derivation
@@ -52,7 +52,7 @@ This project closes that gap.
 - **Hedera Consensus Service (HCS)** - Create topics · Submit messages · Subscribe to events
 - **Scheduled Transactions** - Multi-signature deferred transactions
 
-### Phase 2 (Future)
+### Stage 2 (Future)
  
 - Flutter Web support
 - Hedera Smart Contract Service (HSCS / EVM)
