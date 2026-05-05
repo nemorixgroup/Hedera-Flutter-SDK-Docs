@@ -39,7 +39,12 @@ Set up the foundational architecture, generate Dart code from Hedera's Protobuf 
 - [ ] Publish `v0.0.1-dev` to pub.dev (reserve package name)
 ### Milestone 1 ✅
 > **Definition of done:** Public repository is live, CI/CD passes without errors, Protobuf-generated Dart code compiles, and a basic `HederaClient` instance can connect to Hedera testnet.
- 
+
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 1)](docs/phases/Phase_1_Architecture.md)**  
+
+<br>
  
 ### Phase 2 - Cryptography & Account Management
 **Duration:** 5 weeks (4 dev + 1 testing)  
@@ -81,7 +86,12 @@ Implement the complete cryptography layer and account management service. By the
 - [ ] Coverage: ≥ 85% lines and branches for `crypto` and `accounts` modules
 ### Milestone 2 ✅
 > **Definition of done:** A developer can generate a 24-word Spanish mnemonic, derive a key, create a Hedera testnet account, query its balance, and send HBAR. The resulting wallet is importable in HashPack without errors.
- 
+
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 2)](docs/phases/Phase_2_Crypto_Accounts.md)**  
+
+<br>
  
 ### Phase 3 - Hedera Token Service (HTS)
 **Duration:** 5 weeks (4 dev + 1 testing)  
@@ -131,7 +141,12 @@ Implement the complete HTS surface: fungible tokens, NFTs, compliance features (
 - [ ] Coverage: ≥ 85% for `hts` module
 ### Milestone 3 ✅
 > **Definition of done:** An account can create a fungible token, associate it with another account, and transfer it with native KYC controls. **NemorixPay demo v0.1** shows a real USDC transfer between two accounts on Hedera testnet inside a Flutter app.
- 
+
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 3)](docs/phases/Phase_3_HTS_Tokens.md)**  
+
+<br>
  
 ### Phase 4 - Mirror Node Client + HCS
 **Duration:** 5 weeks (4 dev + 1 testing)  
@@ -181,7 +196,12 @@ Implement the Mirror Node REST client with full pagination and real-time WebSock
 ### Milestone 4 ✅
 > **Definition of done:** SDK is feature-complete for Phase 1. **NemorixPay demo v0.2** shows transaction history loaded from Mirror Node and real-time payment notifications via WebSocket - fully functional in a Flutter app on Hedera testnet.
  
- 
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 4)](docs/phases/Phase_4_Mirror_Node_HCS.md)**  
+
+<br>
+
 ### Phase 5 - Testing, Documentation & pub.dev
 **Duration:** 3 weeks  
 **Status:** ⏳ Pending
@@ -219,7 +239,12 @@ Comprehensive SDK-wide testing, complete dartdoc API documentation, open-source 
 ### Milestone 5 ✅
 > **Definition of done:** `hedera_flutter_sdk` is available on pub.dev at v1.0.0 with score ≥ 130/140. Any Flutter developer can run `flutter pub add hedera_flutter_sdk` and send their first transaction in under 10 minutes following the Quick Start guide.
  
- 
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 5)](docs/phases/Phase_5_Docs_pubdev.md)**  
+
+<br>
+
 ### Phase 6 - Launch, Community & HIP
 **Duration:** 3 weeks  
 **Status:** ⏳ Pending
@@ -260,6 +285,11 @@ Official public launch, community outreach, HIP submission to Hiero, adoption by
 ### Milestone 6 ✅
 > **Definition of done:** The Flutter ecosystem has its first native Hedera SDK with 500+ downloads, 3+ external adopters, a HIP in review, and a published technical article. NemorixPay demonstrates the SDK in a real US-LATAM remittance use case.
 
+<br>
+
+📄 **[→ View detailed week-by-week breakdown (Phase 6)](docs/phases/Phase_6_Launch_HIP.md)**  
+
+<br>
  
 ## Progress Summary
  
