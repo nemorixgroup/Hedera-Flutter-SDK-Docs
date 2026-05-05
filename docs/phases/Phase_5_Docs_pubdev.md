@@ -180,4 +180,4 @@ topics:
 
 ---
 
-*Previous: [Phase 4](PHASE_4_Mirror_Node_HCS.md) &nbsp;|&nbsp; Next: [Phase 6 - Launch + HIP](PHASE_6_Launch_HIP.md)*
+*Previous: [Phase 4](Phase_4_Mirror_Node_HCS.md) &nbsp;|&nbsp; Next: [Phase 6 - Launch + HIP](Phase_6_Launch_HIP.md)*
