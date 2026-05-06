@@ -12,6 +12,10 @@ Phase 2 implements the cryptographic foundation and account management layer. By
 
 > **Key principle:** The cryptography layer is the most security-critical part of the SDK. Private keys must never be logged, printed, or exposed in error messages under any circumstances. Security tests are mandatory, not optional.
 
+<br>
+
+![Phase 2 Summary](../assets/phases/phase_2_summary.png)
+
 ## Week 1 - Cryptography Layer
 
 **Goal:** Implement complete key generation, import, signing, and verification in pure Dart.
