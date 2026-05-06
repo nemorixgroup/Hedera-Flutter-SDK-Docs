@@ -12,6 +12,10 @@ Phase 6 takes the published SDK and makes it real in the Hedera ecosystem - thro
 
 > **Key principle:** A published package with zero community awareness is a tree falling in an empty forest. Phase 6 exists to ensure that the Flutter community, the Hedera developer ecosystem, and the grant committee all know the SDK exists, works, and is being used.
 
+<br>
+
+![Phase 6 Summary](../assets/phases/phase_6_summary.png)
+
 
 ## Week 1 - Launch & Community Outreach
 
