@@ -12,6 +12,11 @@ Phase 4 implements two major components: the Mirror Node client (REST + WebSocke
 
 > **Architecture note:** The Mirror Node is a read-only node that indexes all network activity and exposes it via REST and WebSocket APIs. It is the equivalent of Etherscan for Hedera. The SDK communicates with it via HTTP (not gRPC), a separate client from the consensus node connection.
 
+<br>
+
+![Phase 4 Summary](../assets/phases/phase_4_summary.png)
+
+
 ## Week 1 - Mirror Node REST Client (Foundations)
 
 **Goal:** Implement the base Mirror Node client with core account and token queries.
