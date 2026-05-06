@@ -11,6 +11,11 @@
 Phase 1 establishes the complete foundation of the SDK. No functional features are built yet, this phase is about making the right architectural decisions, generating the Dart code from Hedera's Protobuf definitions, and setting up the repository infrastructure that all future phases will depend on.
  
 > **Key principle:** Decisions made in Phase 1 are the hardest to change later. The architecture, the public API conventions, and the CI/CD pipeline must be solid before any feature work begins.
+
+<br>  
+
+![Phase 1 Summary](../assets/phases/phase_1_summary.png)
+
  
 ## Week 1 - Protocol Research
  
