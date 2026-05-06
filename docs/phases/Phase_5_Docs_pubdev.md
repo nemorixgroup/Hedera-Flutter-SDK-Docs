@@ -12,6 +12,10 @@ Phase 5 transforms a working SDK into a production-quality, publicly available p
 
 > **Key principle:** A pub.dev score of 130+/140 is not a vanity metric, it directly affects how discoverable the package is in search results. Developers searching for "hedera dart" or "hedera flutter" will find this package based on its score and topic tags.
 
+<br>
+
+![Phase 5 Summary](../assets/phases/phase_5_summary.png)
+
 
 ## Week 1 - Comprehensive Testing
 
