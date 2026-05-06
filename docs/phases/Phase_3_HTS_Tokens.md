@@ -12,6 +12,10 @@ Phase 3 implements the complete Hedera Token Service (HTS) - the most critical s
 
 > **Key advantage over Stellar:** HTS native KYC eliminates the need for a costly anchor license. Compliance is managed on-chain by the token operator at $0.0001 per transfer - no third-party intermediary required.
 
+<br>
+
+![Phase 3 Summary](../assets/phases/phase_3_summary.png)
+
 
 ## Week 1 - Fungible Token Creation
 
