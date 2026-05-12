@@ -21,22 +21,24 @@ Architecture   Crypto +     HTS Tokens   Mirror Node      Docs +        Launch +
  
 ### Phase 1 - Architecture & Protobuf Setup
 **Duration:** 3 weeks  
-**Status:** ⏳ Pending
+**Status:** 🔄 In Progress
  
 ### Goals
 Set up the foundational architecture, generate Dart code from Hedera's Protobuf definitions, establish the repository structure, and publish a dev version to pub.dev to reserve the package name.
  
 ### Tasks
-- [ ] Map all HAPI `.proto` files - [hedera-protobufs](https://github.com/hashgraph/hedera-protobufs)
+- [x] Map all HAPI `.proto` files - [hedera-protobufs](https://github.com/hashgraph/hedera-protobufs)
 - [ ] Install and configure `protoc` + `protoc-gen-dart`
 - [ ] Generate Dart classes from all Hedera Protobuf definitions
-- [ ] Design SDK layer architecture: Client, Services, Models, Crypto
-- [ ] Define public API conventions (builder pattern, fluent interface, async/await)
-- [ ] Set up public GitHub repository with Apache 2.0 license
-- [ ] Configure `pubspec.yaml` with all dependencies
+- [x] Design SDK layer architecture: Client, Services, Models, Crypto
+- [x] Define public API conventions (builder pattern, fluent interface, async/await)
+- [x] Set up public GitHub repository with Apache 2.0 license
+- [x] Configure `pubspec.yaml` with all dependencies
 - [ ] Set up GitHub Actions CI/CD: `dart analyze`, `dart format`, `flutter test`, Codecov
-- [ ] Configure `very_good_analysis` linter
+- [x] Configure `very_good_analysis` linter
 - [ ] Publish `v0.0.1-dev` to pub.dev (reserve package name)
+- [x] Create initial Dart SDK files (models, client and crypto stubs)
+- [ ] Create unit tests for base models, crypto and client
 ### Milestone 1 ✅
 > **Definition of done:** Public repository is live, CI/CD passes without errors, Protobuf-generated Dart code compiles, and a basic `HederaClient` instance can connect to Hedera testnet.
 
