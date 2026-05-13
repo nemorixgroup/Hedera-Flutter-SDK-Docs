@@ -34,7 +34,7 @@ Set up the foundational architecture, generate Dart code from Hedera's Protobuf 
 - [x] Define public API conventions (builder pattern, fluent interface, async/await)
 - [x] Set up public GitHub repository with Apache 2.0 license
 - [x] Configure `pubspec.yaml` with all dependencies
-- [ ] Set up GitHub Actions CI/CD: `dart analyze`, `dart format`, `flutter test`, Codecov
+- [x] Set up GitHub Actions CI/CD: `dart analyze`, `dart format`, `flutter test`
 - [x] Configure `very_good_analysis` linter
 - [ ] Publish `v0.0.1-dev` to pub.dev (reserve package name)
 - [x] Create initial Dart SDK files (models, client and crypto stubs)
