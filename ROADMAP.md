@@ -36,9 +36,9 @@ Set up the foundational architecture, generate Dart code from Hedera's Protobuf 
 - [x] Configure `pubspec.yaml` with all dependencies
 - [x] Set up GitHub Actions CI/CD: `dart analyze`, `dart format`, `flutter test`
 - [x] Configure `very_good_analysis` linter
-- [ ] Publish `v0.0.1-dev` to pub.dev (reserve package name)
+- [x] Publish `v0.0.1-dev` to pub.dev (reserve package name)
 - [x] Create initial Dart SDK files (models, client and crypto stubs)
-- [ ] Create unit tests for base models, crypto and client
+- [x] Create unit tests for base models, crypto and client
 ### Milestone 1 ✅
 > **Definition of done:** Public repository is live, CI/CD passes without errors, Protobuf-generated Dart code compiles, and a basic `HederaClient` instance can connect to Hedera testnet.
 
