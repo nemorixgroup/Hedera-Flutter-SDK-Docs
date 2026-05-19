@@ -28,8 +28,8 @@ Set up the foundational architecture, generate Dart code from Hedera's Protobuf 
  
 ### Tasks
 - [x] Map all HAPI `.proto` files - [hedera-protobufs](https://github.com/hashgraph/hedera-protobufs)
-- [ ] Install and configure `protoc` + `protoc-gen-dart`
-- [ ] Generate Dart classes from all Hedera Protobuf definitions
+- [x] Install and configure `protoc` + `protoc-gen-dart`
+- [x] Generate Dart classes from all Hedera Protobuf definitions
 - [x] Design SDK layer architecture: Client, Services, Models, Crypto
 - [x] Define public API conventions (builder pattern, fluent interface, async/await)
 - [x] Set up public GitHub repository with Apache 2.0 license
