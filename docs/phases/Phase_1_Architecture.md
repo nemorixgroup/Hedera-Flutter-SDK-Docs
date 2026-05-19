@@ -23,12 +23,12 @@ Phase 1 establishes the complete foundation of the SDK. No functional features a
  
 ### Tasks
  
-- [ ] Study all HAPI `.proto` files - [github.com/hashgraph/hedera-protobufs](https://github.com/hashgraph/hedera-protobufs)
-- [ ] Map all services: `CryptoService`, `TokenService`, `ConsensusService`, `FileService`, `SmartContractService`, `NetworkService`
-- [ ] Review the Hedera JavaScript SDK as the primary reference implementation
-- [ ] Document the complete transaction lifecycle: construction → signing → serialization → gRPC submission → receipt polling
-- [ ] Identify all available Dart packages on pub.dev for each technical component
-- [ ] Analyze the Java SDK for design patterns to replicate in Dart
+- [x] Study all HAPI `.proto` files - [github.com/hashgraph/hedera-protobufs](https://github.com/hashgraph/hedera-protobufs)
+- [x] Map all services: `CryptoService`, `TokenService`, `ConsensusService`, `FileService`, `SmartContractService`, `NetworkService`
+- [x] Review the Hedera JavaScript SDK as the primary reference implementation
+- [x] Document the complete transaction lifecycle: construction → signing → serialization → gRPC submission → receipt polling
+- [x] Identify all available Dart packages on pub.dev for each technical component
+- [x] Analyze the Java SDK for design patterns to replicate in Dart
 ### Key questions to answer
  
 - Which `.proto` files are required for Phase 1 scope?
@@ -45,14 +45,14 @@ A research document (can be a GitHub Discussion or internal doc) summarizing fin
  
 ### Tasks
  
-- [ ] Install `protoc` (Protocol Buffer compiler)
-- [ ] Install `protoc-gen-dart` plugin - [pub.dev/packages/protoc_plugin](https://pub.dev/packages/protoc_plugin)
-- [ ] Clone [hedera-protobufs](https://github.com/hashgraph/hedera-protobufs) and identify all relevant `.proto` files
-- [ ] Generate Dart classes from all HAPI service definitions
-- [ ] Validate that all generated types compile correctly in a Flutter project
-- [ ] Create `scripts/generate_proto.sh` - automation script for future regeneration
-- [ ] Commit generated Protobuf code to `lib/src/proto/` (versioned artifact)
-- [ ] Evaluate gRPC transport options:
+- [x] Install `protoc` (Protocol Buffer compiler)
+- [x] Install `protoc-gen-dart` plugin - [pub.dev/packages/protoc_plugin](https://pub.dev/packages/protoc_plugin)
+- [x] Clone [hedera-protobufs](https://github.com/hashgraph/hedera-protobufs) and identify all relevant `.proto` files
+- [x] Generate Dart classes from all HAPI service definitions
+- [x] Validate that all generated types compile correctly in a Flutter project
+- [x] Create `scripts/generate_proto.ps1` - automation script for future regeneration
+- [x] Commit generated Protobuf code to `lib/src/proto/` (versioned artifact)
+- [x] Evaluate gRPC transport options:
   - `package:grpc` - uses `dart:io`, works on mobile, **not** on Flutter Web
   - Decision: **Stage 1 = iOS + Android only**, Flutter Web deferred to Stage 2
 ### Key `.proto` files
@@ -81,27 +81,27 @@ All Protobuf-generated Dart files in `lib/src/proto/` - compiling without errors
 ### Tasks
  
 **Architecture**
-- [ ] Design SDK layer structure: Client → Services → Models → Crypto
+- [x] Design SDK layer structure: Client → Services → Models → Crypto
 - [ ] Define public API conventions:
   - Builder / fluent pattern for transactions
   - `async`/`await` throughout - no callbacks
   - Strong typing for all IDs (`AccountId`, `TokenId` - not raw `String`)
   - Immutable models where possible
   - Typed exceptions: `HederaStatusException` with all `Status` codes
-- [ ] Create Architecture Decision Records (ADR) documenting key choices
-- [ ] Define folder structure (see below)
+- [x] Create Architecture Decision Records (ADR) documenting key choices
+- [x] Define folder structure (see below)
 **Repository**
-- [ ] Create public GitHub repository with Apache 2.0 `LICENSE`
-- [ ] Configure `pubspec.yaml` with all dependencies and pub.dev metadata
-- [ ] Set up `very_good_analysis` linter - enforces pub.dev best practices from day one
-- [ ] Configure GitHub Actions CI/CD:
+- [x] Create public GitHub repository with Apache 2.0 `LICENSE`
+- [x] Configure `pubspec.yaml` with all dependencies and pub.dev metadata
+- [x] Set up `very_good_analysis` linter - enforces pub.dev best practices from day one
+- [x] Configure GitHub Actions CI/CD:
   - `dart analyze --fatal-infos`
   - `dart format --set-exit-if-changed .`
   - `flutter test --coverage`
-  - Codecov upload (threshold: 85%)
-  - `dart pub publish --dry-run`
-- [ ] Create `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `CHANGELOG.md`
-- [ ] Publish `v0.0.1-dev` to pub.dev (reserve package name)
+  - Codecov upload (threshold: 85%) ← deferred to Phase 5
+  - `dart pub publish --dry-run` ← deferred to Phase 5
+- [x] Create `README.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `CHANGELOG.md`
+- [x] Publish `v0.0.1-dev` to pub.dev (reserve package name)
 ### SDK folder structure
  
 ```
