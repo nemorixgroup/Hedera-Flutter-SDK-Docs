@@ -12,13 +12,14 @@ The first native Flutter/Dart SDK for the Hedera network.
 > **The first native Flutter/Dart SDK for the [Hedera](https://hedera.com) network.**  
 > Pure Dart · No platform channels · Published soon on [pub.dev](https://pub.dev)
  
+## Status: Research & Active Development - May 2026
  
-## ⚠️ Status: Research & Documentation - April 2026
- 
-This SDK is currently in the **research and documentation phase** by [Nemorix Group](https://nemorixpay.com).  
-No code has been written yet, we are studying the Hedera ecosystem, defining the architecture, and preparing the technical foundation before development begins.
- 
-Expected first release: **pub.dev v0.1.0-dev** → See [Roadmap](ROADMAP.md)
+Phase 1 completed. The SDK foundation is ready:
+335 Dart classes generated from Hedera HAPI Protobuf definitions, CI/CD pipeline active, and v0.0.3-dev published on pub.dev.
+
+Phase 2 starting: Cryptography and Account Management.
+
+Expected first production release: **pub.dev v1.0.0** → See [Roadmap](ROADMAP.md)
  
 ## Overview
  
@@ -39,7 +40,23 @@ This project closes that gap.
 | C++ / Rust   | ✅ Official   |
 | .NET         | ✅ Community  |
 | **Flutter/Dart** | 🔨 **This project** |
- 
+
+### Status
+
+| Phase | Description | Status |
+|:------|:------------|:------:|
+| 1 | Architecture + Protobuf | ✅ Completed |
+| 2 | Crypto + Accounts | 🔄 In Progress |
+| 3 | HTS Tokens + NFTs | ⏳ Pending |
+| 4 | Mirror Node + HCS | ⏳ Pending |
+| 5 | Docs + pub.dev v1.0 | ⏳ Pending |
+| 6 | Launch + HIP | ⏳ Pending |
+
+### Published
+- v0.0.3-dev available on [pub.dev](https://pub.dev/packages/hedera_flutter_sdk)
+- pana score: 130/160
+- verified publisher: **nemorixpay.com**
+
 ## Features
  
 ### Stage 1 (Planned)
