@@ -21,7 +21,7 @@ Architecture   Crypto +     HTS Tokens   Mirror Node      Docs +        Launch +
  
 ### Phase 1 - Architecture & Protobuf Setup
 **Duration:** 3 weeks  
-**Status:** 🔄 In Progress
+**Status:** ✅ Completed 
  
 ### Goals
 Set up the foundational architecture, generate Dart code from Hedera's Protobuf definitions, establish the repository structure, and publish a dev version to pub.dev to reserve the package name.
@@ -49,8 +49,8 @@ Set up the foundational architecture, generate Dart code from Hedera's Protobuf 
 <br>
  
 ### Phase 2 - Cryptography & Account Management
-**Duration:** 5 weeks (4 dev + 1 testing)  
-**Status:** ⏳ Pending
+**Duration:** 4 weeks (4 dev + 1 testing)  
+**Status:** 🔄 In Progress
  
 ### Goals
 Implement the complete cryptography layer and account management service. By the end of this phase, a developer can generate a wallet, create a Hedera account, and transfer HBAR on testnet.
@@ -60,8 +60,8 @@ Implement the complete cryptography layer and account management service. By the
 **Cryptography**
 - [ ] ED25519 key generation, import (DER / PEM / hex) and signing
 - [ ] ECDSA secp256k1 key generation (EVM wallet compatibility)
-- [ ] BIP-39 mnemonic generation - 12 and 24 words
-- [ ] BIP-39 language support: English `🇺🇸` and Spanish `🇪🇸`
+- [x] BIP-39 mnemonic generation - 12 and 24 words
+- [x] BIP-39 language support: English `🇺🇸` and Spanish `🇪🇸`
 - [ ] HD key derivation from mnemonic with optional passphrase
 - [ ] Legacy Hedera mnemonic derivation (HashPack / Blade Wallet compatible)
 - [ ] `KeyList` with M-of-N threshold for multi-signature accounts
@@ -96,7 +96,7 @@ Implement the complete cryptography layer and account management service. By the
 <br>
  
 ### Phase 3 - Hedera Token Service (HTS)
-**Duration:** 5 weeks (4 dev + 1 testing)  
+**Duration:** 4 weeks (4 dev + 1 testing)  
 **Status:** ⏳ Pending
  
 ### Goals
@@ -151,7 +151,7 @@ Implement the complete HTS surface: fungible tokens, NFTs, compliance features (
 <br>
  
 ### Phase 4 - Mirror Node Client + HCS
-**Duration:** 5 weeks (4 dev + 1 testing)  
+**Duration:** 4 weeks (4 dev + 1 testing)  
 **Status:** ⏳ Pending
  
 ### Goals
