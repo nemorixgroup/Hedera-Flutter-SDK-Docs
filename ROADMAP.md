@@ -58,12 +58,15 @@ Implement the complete cryptography layer and account management service. By the
 ### Tasks
  
 **Cryptography**
-- [ ] ED25519 key generation, import (DER / PEM / hex) and signing
-- [ ] ECDSA secp256k1 key generation (EVM wallet compatibility)
-- [x] BIP-39 mnemonic generation - 12 and 24 words
+- [x] ED25519 key generation, import (DER / PEM / hex) and signing (PEM  -*Pending*-)
+- [x] ECDSA secp256k1 key generation (EVM wallet compatibility)
+- [x] BIP-39 mnemonic generation - 12 and 24 words (22 words -*Pending*-)
 - [x] BIP-39 language support: English `🇺🇸` and Spanish `🇪🇸`
-- [ ] HD key derivation from mnemonic with optional passphrase
-- [ ] Legacy Hedera mnemonic derivation (HashPack / Blade Wallet compatible)
+- [x] HD key derivation from mnemonic with optional passphrase
+- [x] Legacy Hedera mnemonic derivation (HashPack / Blade Wallet compatible) (22 words ⏳ - *UnsupportedError*)
+- [x] `Mnemonic.fromString()` - create Mnemonic from space-separated phrase
+- [x] `Mnemonic.validate()` - BIP-39 checksum validation for English and Spanish
+- [x] `PrivateKey.derivePublicKey()` - async ED25519 public key derivation
 - [ ] `KeyList` with M-of-N threshold for multi-signature accounts
 **Account Management**
 - [ ] `AccountCreateTransaction` - key, initial HBAR, auto-token-associations
@@ -80,7 +83,7 @@ Implement the complete cryptography layer and account management service. By the
 - [ ] `TransactionResponse`: `getReceipt()`, `getRecord()` with auto-polling
 - [ ] Typed error handling: `HederaStatusException` with all `Status` codes
 **Testing week**
-- [ ] Unit tests: key generation, signing, verification, serialization
+- [x] Unit tests: key generation, signing, verification, serialization
 - [ ] Compatibility tests: keys importable in HashPack and Blade Wallet
 - [ ] Integration tests against testnet: create → query → transfer → verify receipt
 - [ ] Multi-sig tests: M-of-N threshold transactions
